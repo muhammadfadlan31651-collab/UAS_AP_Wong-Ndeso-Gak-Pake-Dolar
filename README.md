@@ -29,14 +29,17 @@ Repositori ini merupakan repositori resmi pengumpulan tugas **Ujian Tengah Semes
 ## Deskripsi Soal/Program.
 
 1. ## Sistem Parkir Mall (Muhammad Fadlan Nasution)
-    Program ini basically adalah sistem buat ngelola parkir di Mall. Jadi petugas parkir nggak perlu lagi nyatet manual pake kertas, semua dihandle lewat program ini di komputer.
+Program ini basically adalah sistem buat ngelola parkir di Mall. Jadi petugas parkir nggak perlu lagi nyatet manual pake kertas, semua dihandle lewat program ini di komputer.
 Waktu pertama buka program, petugas diminta masukin nama sama ID dulu, biar ketauan siapa yang lagi jaga. Abis itu baru deh bisa mulai kerjaan.
 
 Fitur utamanya ada 4: 
-**1.bisa tambah mobil yang baru masuk
-  2.lihat daftar mobil yang lagi parkir sekarang
-  3.proses pembayaran buat mobil yang mau keluar
-  4.sama keluar program.**
+   **1.bisa tambah mobil yang baru masuk**
+
+   **2.lihat daftar mobil yang lagi parkir sekarang**
+  
+   **3.proses pembayaran buat mobil yang mau keluar**
+  
+   **4.sama keluar program.**
 
 waktu catat mobil masuk itu sistemnya langsung nyimpen waktu masuknya secara otomatis. Jadi nanti pas bayar, tinggal masukin plat nomornya, biayanya langsung keitung sendiri sesuai berapa lama dia parkir. Nggak perlu hitung manual lagi.
 parkiran ini juga ada batasnya itu maksimal 20 mobil. Kalau udah penuh, sistem langsung nolak kalau ada yang mau masuk lagi. Jadi nggak bakal over kapasitas.
