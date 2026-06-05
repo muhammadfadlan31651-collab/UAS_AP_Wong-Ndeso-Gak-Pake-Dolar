@@ -14,7 +14,7 @@ Pembagian Tugas
 
 Sistem Parkir Mall: Fadlan
 
-Bagian 2 : Hafifuddin
+Game Tebak Kata : Hafifuddin
 
 Bagian 3 : Adinda
 
@@ -41,6 +41,20 @@ Fitur utamanya ada 4:
 waktu catat mobil masuk itu sistemnya langsung nyimpen waktu masuknya secara otomatis. Jadi nanti pas bayar, tinggal masukin plat nomornya, biayanya langsung keitung sendiri sesuai berapa lama dia parkir. Nggak perlu hitung manual lagi.
 parkiran ini juga ada batasnya itu maksimal 20 mobil. Kalau udah penuh, sistem langsung nolak kalau ada yang mau masuk lagi. Jadi nggak bakal over kapasitas.
 Program ini dijalanin lewat CLI alias lewat terminal/command prompt, jadi tampilannya text-based, nggak ada GUI atau tombol-tombol grafis.
+
+2. ## Game Tebak Kata (Hafifuddin)
+Program ini adalah game tebak kata berbasis CLI yang langsung bisa dijalanin lewat terminal atau command prompt tanpa perlu install apapun.
+
+Sebelum main, pemain diminta milih dulu tingkat kesulitan: Easy yang ngasih 8 kesempatan salah, Medium 6, atau Hard yang cuma 4. Abis itu sistem bakal pilih satu 
+kata rahasia secara acak dari bank kata yang isinya 15 kata, terus tampilinnya sebagai deretan underscore sesuai panjang katanya.
+
+Gameplay-nya simpel, pemain tebak satu huruf per giliran. Kalau hurufnya ada di kata, semua posisi huruf itu langsung kebuka sekaligus. Kalau salah, nyawa 
+berkurang satu dan hurufnya masuk ke daftar tebakan salah yang ditampilin di layar. Kalau pemain ngetik huruf yang udah pernah ditebak sebelumnya, sistem kasih 
+peringatan tanpa ngurangin nyawa. Layar di-refresh tiap giliran biar tampilannya selalu bersih dan update.
+
+Ada juga fitur Hint, tinggal ketik H dan sistem buka huruf pertama kata rahasia, tapi harganya 1 nyawa dan cuma bisa dipakai sekali per ronde. Kalau berhasil 
+menang, pemain dapet skor berdasarkan panjang kata, sisa nyawa, dan tingkat kesulitan yang dipilih — skornya bisa disimpen ke leaderboard yang nyimpen 5 skor 
+tertinggi selama satu sesi. Setiap ronde selesai pemain ditanya mau lanjut atau berhenti.
 
 
 
