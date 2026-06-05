@@ -10,7 +10,11 @@ Nama-Nama Anggota Kelompok
 
 Pembagian Tugas
 Bagian 1 : Fadlan
+
 Bagian 2 : Hafifuddin
+
 Bagian 3 : Adinda
+
 Bagian 4 : Ferdinand
+
 Bagian 5 : Owen
