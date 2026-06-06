@@ -118,5 +118,5 @@ Sistem Skor: Program memiliki penghitung nilai di latar belakang. Setiap kali pe
 
 Opsi Main Lagi: Setelah satu ronde tebakan selesai dieksekusi (entah itu berujung benar atau salah), pemain bisa langsung mengetik 'y' untuk meminta soal negara baru lagi atau 'n' untuk mengakhiri permainan, tanpa harus menutup dan membuka ulang aplikasi terminal.
 
-## Screenshot Hasil Program
+## Screenshot Hasil Masing Masing Program
 https://drive.google.com/drive/folders/1zydsKqqFeB4OB2t8SkSq0HpC2yizp_wD?usp=drive_link
