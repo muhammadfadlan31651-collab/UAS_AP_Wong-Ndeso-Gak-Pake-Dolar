@@ -56,6 +56,44 @@ Ada juga fitur Hint, tinggal ketik H dan sistem buka huruf pertama kata rahasia,
 menang, pemain dapet skor berdasarkan panjang kata, sisa nyawa, dan tingkat kesulitan yang dipilih — skornya bisa disimpen ke leaderboard yang nyimpen 5 skor 
 tertinggi selama satu sesi. Setiap ronde selesai pemain ditanya mau lanjut atau berhenti.
 
+3. ## Sistem Manajemen Inventaris Toko (Adinda Egia Rehulina Pelawi)
+
+Program ini merupakan sistem pengelolaan inventaris barang toko berbasis CLI (Command Line Interface) yang dijalankan melalui terminal atau command prompt. Program ini dibuat untuk membantu pemilik atau petugas toko dalam mengelola data barang yang tersedia di dalam gudang maupun etalase toko secara lebih cepat dan terstruktur dibandingkan pencatatan manual.
+
+Setiap barang yang tersimpan dalam sistem memiliki beberapa informasi penting, yaitu kode barang, nama barang, harga barang, dan jumlah stok yang tersedia. Seluruh data barang disimpan menggunakan struktur data `vector` sehingga data dapat bertambah secara dinamis sesuai kebutuhan pengguna.
+
+Program menyediakan beberapa fitur utama yang dapat diakses melalui menu utama, yaitu:
+
+### Tambah Barang
+
+Pengguna dapat menambahkan data barang baru ke dalam sistem dengan memasukkan kode barang, nama barang, harga barang, dan jumlah stok barang. Sistem akan melakukan validasi untuk memastikan bahwa harga dan stok yang dimasukkan tidak bernilai negatif. Jika data tidak valid, pengguna akan diminta untuk memasukkan ulang data yang benar.
+
+### Tampilkan Semua Barang
+
+Fitur ini digunakan untuk menampilkan seluruh data barang yang telah tersimpan di dalam sistem. Informasi yang ditampilkan meliputi kode barang, nama barang, harga barang, dan stok barang sehingga pengguna dapat melihat kondisi inventaris secara keseluruhan.
+
+### Cari Barang Termahal
+
+Program dapat mencari dan menampilkan barang dengan harga tertinggi dari seluruh data yang tersimpan. Fitur ini membantu pengguna mengetahui barang yang memiliki nilai jual paling tinggi dalam inventaris toko.
+
+### Hitung Total Nilai Inventaris
+
+Sistem dapat menghitung total nilai inventaris yang dimiliki toko dengan cara mengalikan harga setiap barang dengan jumlah stoknya, kemudian menjumlahkan seluruh hasil perhitungan tersebut. Hasil akhir yang ditampilkan menunjukkan total aset barang yang tersedia dalam toko.
+
+### Cek Restock
+
+Program dapat menampilkan daftar barang yang memiliki stok kurang dari 5 unit. Barang-barang tersebut dianggap memiliki stok kritis dan perlu segera dilakukan pemesanan ulang agar tidak kehabisan saat dibutuhkan pelanggan.
+
+### Update Stok
+
+Fitur ini digunakan untuk memperbarui jumlah stok barang yang sudah ada. Pengguna cukup memasukkan kode barang yang ingin diperbarui, kemudian menentukan jumlah stok yang akan ditambahkan atau dikurangi. Pada proses ini digunakan konsep pointer untuk mengakses dan mengubah nilai stok secara langsung.
+
+### Keluar Program
+
+Fitur ini digunakan untuk mengakhiri penggunaan aplikasi. Program akan berhenti berjalan setelah pengguna memilih menu keluar.
+
+Program dirancang menggunakan konsep dasar pemrograman C++ seperti `struct`, `vector`, `function`, `pointer`, percabangan, perulangan, dan validasi input. Dengan adanya sistem ini, proses pengelolaan inventaris barang dapat dilakukan dengan lebih mudah, cepat, dan terorganisir dibandingkan pencatatan secara manual.
+
 4. ## Game Minesweeper (Ferdinand Macalister)
 Program ini pada dasarnya adalah game teka-teki logika Minesweeper klasik, tapi semuanya dijalankan full lewat terminal atau command prompt (CLI). Jadi, tidak ada antarmuka grafis atau tombol yang bisa diklik menggunakan mouse; semuanya murni berbasis teks dan dikendalikan lewat ketikan keyboard.
 
