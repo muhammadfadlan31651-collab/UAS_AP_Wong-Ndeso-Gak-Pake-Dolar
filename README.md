@@ -117,3 +117,6 @@ Tebak Kata (Clue): Pemain menganalisis sisa huruf yang muncul di layar dan menge
 Sistem Skor: Program memiliki penghitung nilai di latar belakang. Setiap kali pemain berhasil menebak nama negara dengan tepat, sistem akan memberikan ucapan selamat dan skor akan otomatis bertambah satu poin. Jika tebakan salah, sistem akan memberitahu bahwa jawaban salah dan skor tetap ditahan.
 
 Opsi Main Lagi: Setelah satu ronde tebakan selesai dieksekusi (entah itu berujung benar atau salah), pemain bisa langsung mengetik 'y' untuk meminta soal negara baru lagi atau 'n' untuk mengakhiri permainan, tanpa harus menutup dan membuka ulang aplikasi terminal.
+
+## Screenshot Hasil Program
+https://drive.google.com/drive/folders/1zydsKqqFeB4OB2t8SkSq0HpC2yizp_wD?usp=drive_link
