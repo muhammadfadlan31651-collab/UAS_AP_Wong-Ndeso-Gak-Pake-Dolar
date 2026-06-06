@@ -56,6 +56,15 @@ Ada juga fitur Hint, tinggal ketik H dan sistem buka huruf pertama kata rahasia,
 menang, pemain dapet skor berdasarkan panjang kata, sisa nyawa, dan tingkat kesulitan yang dipilih — skornya bisa disimpen ke leaderboard yang nyimpen 5 skor 
 tertinggi selama satu sesi. Setiap ronde selesai pemain ditanya mau lanjut atau berhenti.
 
+4. ## Game Minesweeper (Ferdinand Macalister)
+Program ini pada dasarnya adalah game teka-teki logika Minesweeper klasik, tapi semuanya dijalankan full lewat terminal atau command prompt (CLI). Jadi, tidak ada antarmuka grafis atau tombol yang bisa diklik menggunakan mouse; semuanya murni berbasis teks dan dikendalikan lewat ketikan keyboard.
 
+Waktu pertama kali program dibuka, pemain tidak langsung dilempar ke arena permainan. Sistem akan meminta pemain untuk menentukan sendiri seberapa besar ukuran papan dan berapa banyak jumlah ranjau bom yang ingin ditanam. Hal ini membuat permainannya sangat fleksibel karena tingkat kesulitannya bisa diatur secara bebas. Begitu ukuran papan diatur, sistem akan langsung menanam bom secara acak di belakang layar, dan timer otomatis mulai menghitung waktu bermain.
+
+Untuk gameplay utamanya, program ini menyediakan fitur-fitur standar Minesweeper pada umumnya:
+- Buka Kotak: Pemain memasukkan angka koordinat baris dan kolom untuk menebak dan membongkar area yang dirasa aman. Kalau area yang ditebak ternyata murni kosong, kotak aman di sekitarnya otomatis ikut terbuka semua.
+- Pasang Bendera (Flag): Kalau pemain sudah yakin ada bom di titik tertentu, mereka bisa memasang bendera di koordinat tersebut. Fitur ini berguna untuk mengunci dan menandai area berbahaya agar tidak tidak sengaja terbuka saat lanjut bermain.
+- Timer Waktu: Sistem memiliki penghitung waktu di latar belakang yang mencatat durasi total detik yang dihabiskan pemain dari awal mulai sampai mereka berhasil menang.
+- Opsi Main Lagi: Setelah satu ronde selesai, entah itu karena berhasil menang atau kalah karena meledak terkena bom, pemain bisa langsung memilih untuk memulai permainan baru lagi tanpa harus menutup dan membuka ulang aplikasi terminalnya.
 
 
